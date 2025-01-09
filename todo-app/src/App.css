@@ -1,0 +1,17 @@
+
+.items-container{
+  margin-top: 15px;
+  text-align: left;
+}
+.delete-todo{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.todo-add{
+background-color: rgb(18, 204, 27);
+color:white;
+border-radius:15px;
+width: 90px;
+height: 40px;
+border: none;
+}
