@@ -1,0 +1,31 @@
+/* Apply a full-height background to center the text */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* Style for the Welcome message */
+.welcome{
+  font-size: 3rem;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+  letter-spacing: 2px;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,36 @@
+.itemsContainer {
+  margin-top: 15px;
+  text-align: left; 
+  /* padding: 10px 15px;  */
+  background-color: #f9f9f9; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.todoAdd {
+  background: linear-gradient(90deg, #12cc1b, #0db112); 
+  color: #ffffff;
+  border-radius: 15px; 
+  width: 100px;
+  height: 40px;
+  border: none; 
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.todoAdd:hover {
+  background: linear-gradient(90deg, #0db112, #0a8710);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); 
+}
+
+.todoAdd:active {
+  transform: translateY(2px);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(90deg, #0a8710, #066508);
+}

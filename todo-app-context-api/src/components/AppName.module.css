@@ -1,0 +1,22 @@
+.todoHeading {
+  font-weight: 900;
+  font-size: 40px;
+  margin: 10px;
+  margin-bottom: 25px;
+  color: rgb(118, 230, 112); 
+  background: linear-gradient(90deg, #76e670, #3cb371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: 'Poppins', sans-serif;
+  text-align: center; 
+  padding: 10px 20px; 
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.todoHeading:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
